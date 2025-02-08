@@ -30,7 +30,6 @@
         "micheh/phpcs-gitlab": "1.1.0",
         "mikey179/vfsstream": "v1.6.12",
         "myclabs/deep-copy": "1.12.1",
-        "nikic/php-parser": "v5.3.1",
         "nyholm/psr7-server": "1.1.0",
         "open-telemetry/api": "1.1.1",
         "open-telemetry/context": "1.1.0",
