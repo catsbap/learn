@@ -1,0 +1,52 @@
+uuid: 79e34a8c-8332-49d0-9a3a-9bd076a6350b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_my_responsive_media
+    - field.field.node.page.field_responsive_image
+    - image.style.cathys_image_2
+    - node.type.page
+  module:
+    - media
+    - text
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  field_my_responsive_media:
+    type: media_thumbnail
+    label: above
+    settings:
+      image_link: ''
+      image_style: cathys_image_2
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_responsive_image:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+hidden: {  }

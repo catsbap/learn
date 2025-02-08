@@ -1,0 +1,15 @@
+uuid: d8129afb-f156-434a-b0a7-fedb0c1fc791
+langcode: en
+status: true
+dependencies: {  }
+name: cathys_image_1
+label: 'cathys image 1'
+effects:
+  3a1dbbc7-dbc0-4530-925b-27616ba8ef29:
+    uuid: 3a1dbbc7-dbc0-4530-925b-27616ba8ef29
+    id: image_rotate
+    weight: 1
+    data:
+      degrees: 190
+      bgcolor: ''
+      random: false

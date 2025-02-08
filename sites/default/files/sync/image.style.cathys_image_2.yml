@@ -1,0 +1,20 @@
+uuid: b4cdaca8-6906-4d8c-b0e5-dca9858ea4fd
+langcode: en
+status: true
+dependencies: {  }
+name: cathys_image_2
+label: 'cathys image 2'
+effects:
+  92ce7a21-1950-422a-bc2c-f09284d382f4:
+    uuid: 92ce7a21-1950-422a-bc2c-f09284d382f4
+    id: image_desaturate
+    weight: 1
+    data: {  }
+  852c1a99-649a-4712-85e4-ca2410761397:
+    uuid: 852c1a99-649a-4712-85e4-ca2410761397
+    id: image_rotate
+    weight: 2
+    data:
+      degrees: 10
+      bgcolor: ''
+      random: true

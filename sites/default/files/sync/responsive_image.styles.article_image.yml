@@ -1,0 +1,30 @@
+uuid: ef0d5ee9-3d8a-4a11-b512-47d2c282f633
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.cathys_image_1
+    - image.style.cathys_image_2
+    - image.style.thumbnail
+  theme:
+    - olivero
+id: article_image
+label: 'article image'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: cathys_image_2
+    breakpoint_id: olivero.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: cathys_image_1
+    breakpoint_id: olivero.md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: '_empty image_'
+    breakpoint_id: olivero.sm
+    multiplier: 1x
+breakpoint_group: olivero
+fallback_image_style: thumbnail
