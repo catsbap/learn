@@ -13,6 +13,7 @@
         "drupal/core": "self.version",
         "drupal/core-project-message": "self.version",
         "drupal/core-vendor-hardening": "self.version",
+        "drupal/devel": "^5.3",
         "drush/drush": "^13.3"
     },
     "require-dev": {
